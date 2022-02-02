@@ -8,13 +8,33 @@
   margin-top: 50px;
 }
 
+@media (max-width: 800px) {
+  .bighello {
+    flex-direction: column;
+    margin: auto;
+    width: 250px;
+    text-align: center;
+  }
+
+  .profilepicture {
+    margin: auto;
+  }
+
+  .icons {
+    margin: auto;
+  }
+}
+
 .bighelloright {
   margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 .bighellotitle {
   font-size: 50px;
-  margin-top: 12px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -24,4 +44,16 @@
 
 .icon {
   padding-right: 10px;
+  position: relative;
+  transition: 50ms;
+}
+
+.icon:hover {
+  /*color: #2BA84A;*/
+
+  transform: translateY(-3px);
+}
+
+.name {
+  color: #2BA84A;
 }
