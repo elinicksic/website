@@ -4,12 +4,12 @@ import Image from 'next/image'
 import Layout from '../components/layout'
 import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+const Projects: NextPage = () => {
   return (
     <Layout>
-      <h1>Hello</h1>
+      <h1>Projects</h1>
     </Layout>
   )
 }
 
-export default Home
+export default Projects

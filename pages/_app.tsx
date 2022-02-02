@@ -16,15 +16,7 @@ const theme = extendTheme({ colors })
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <Head>
-        <title>Eli Nicksic</title>
-        <meta name="description" content="My Personal Website!" />
-      </Head>
-      <ChakraProvider theme={theme}>
-        <Component {...pageProps} />
-      </ChakraProvider>
-    </>
+    <Component {...pageProps} />
   )
 }
 export default MyApp
