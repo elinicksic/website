@@ -1,10 +1,23 @@
+/* 
+Color Pallet:
+https://coolors.co/040f0f-248232-2ba84a-2d3a3a-fcfffc
+
+Main Background: #040F0F
+Ligher Background: #2D3A3A
+Darker Green: #248232
+Lighter Green: #2BA84A
+White: #FCFFFC
+*/
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #040F0F;
+  /*background-color: #040F0F;*/
+  background: linear-gradient(to top, #2D3A3A, #040F0F 70%);
+  background-attachment: fixed;
   color: #FCFFFC;
 }
 
