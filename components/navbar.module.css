@@ -13,6 +13,7 @@
     width: 80px;
     font-size: 16px;
     border-radius: 10px;
+    transition: 200ms;
 }
 
 .navbaritem:hover {
