@@ -16,7 +16,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   /*background-color: #040F0F;*/
-  background: linear-gradient(to top, #2D3A3A, #040F0F 70%);
+  background: linear-gradient(to top, #2D3A3A, #040F0F 60%);
   background-attachment: fixed;
   color: #FCFFFC;
 }
@@ -24,8 +24,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
 }
