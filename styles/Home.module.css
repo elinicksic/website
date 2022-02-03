@@ -11,7 +11,7 @@
 @media (max-width: 800px) {
   .bighello {
     flex-direction: column;
-    margin: auto;
+    margin: 50px auto;
     width: 250px;
     text-align: center;
   }
