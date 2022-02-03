@@ -23,6 +23,10 @@
   .icons {
     margin: auto;
   }
+
+  .bighelloright {
+    margin-left: 0 !important;
+  }
 }
 
 .bighelloright {
@@ -56,4 +60,20 @@
 
 .name {
   color: #2BA84A;
+}
+
+.mainScreen {
+  height: 100vh;
+}
+
+.scrollDown {
+  width: fit-content;
+  margin: auto;
+  /* position: absolute; */
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 5px;
+  text-align: center;
 }
